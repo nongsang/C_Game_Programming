@@ -23,3 +23,4 @@ int main()
 // _getche()는 화면에 보여주지만 출력화면을 덮어서 보여준다.
 // getchar()는 문자를 입력받는 표준함수이다.
 // getchar()를 제외한 함수는 conio.h에 정의되어 있다.
+// getchar()는 stdio.h에 정의되어있다.
