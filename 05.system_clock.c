@@ -10,7 +10,6 @@ int main()
 		system("cls");			// 콘솔 명령어
 		printf("초 : %d", clock() / 1000);	// 시간 출력
 	}
-	return 0;
 }
 
 // 10행
