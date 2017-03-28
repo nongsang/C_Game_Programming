@@ -2,7 +2,7 @@
 #include <string.h>
 //#include <memory.h>
 
-int main(void)
+int main()
 {
 	char src[] = "1234";
 	char dest[] = "###########";
