@@ -12,8 +12,6 @@ int main()
 			break;
 		printf("%c", ch);	// 문자 출력
 	}
-	
-	return 0;
 }
 
 // 10행
