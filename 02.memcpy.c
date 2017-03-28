@@ -9,7 +9,6 @@ int main(void)
 
 	memcpy(dest, src, 4);	// 메모리 카피
 	printf("%s\n", dest);
-	
 }
 
 // 10행
