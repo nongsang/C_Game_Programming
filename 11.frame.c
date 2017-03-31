@@ -27,19 +27,19 @@ int main()
 
 	Init();			// 객체 초기화
 
-					//OldTime = clock();		// 시간을 구한다.
-					//while (1)
-					//{
-					//	Update();			// 업데이트 하고
-					//	Render();			// 화면에 그려준다.
-					//	while (1)
-					//	{
-					//		CurTime = clock();	// 업데이트 하고 화면에 그려주기까지의 시간을 구한다.
-					//		if ((double)(CurTime - OldTime) > 16.7)		// 현재 시간에서 처음 시간을 빼서 1frame을 그리는 시간보다 늦어지면
-					//			OldTime = CurTime;					// 처음 시간에 현재 시간을 저장한다.
-					//		break;
-					//	}
-					//}
+	//OldTime = clock();		// 시간을 구한다.
+	//while (1)
+	//{
+	//	Update();			// 업데이트 하고
+	//	Render();			// 화면에 그려준다.
+	//	while (1)
+	//	{
+	//		CurTime = clock();	// 업데이트 하고 화면에 그려주기까지의 시간을 구한다.
+	//		if ((double)(CurTime - OldTime) > 16.7)		// 현재 시간에서 처음 시간을 빼서 1frame을 그리는 시간보다 늦어지면
+	//			OldTime = CurTime;					// 처음 시간에 현재 시간을 저장한다.
+	//		break;
+	//	}
+	//}
 
 	while (1)
 	{
@@ -50,7 +50,7 @@ int main()
 		while (1) // 대기 상태 진입
 		{
 			CurTime = clock();
-			if ((double)(CurTime - OldTime) > 16.7)
+			if ((double)(CurTime - OldTime) > 16.67)
 				break;
 		}
 	}
