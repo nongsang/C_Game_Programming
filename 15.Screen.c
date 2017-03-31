@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include "Screen.h"
-
 void ScreenInit()		// 화면 초기화
 {
 
